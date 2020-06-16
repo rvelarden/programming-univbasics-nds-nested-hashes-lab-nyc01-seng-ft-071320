@@ -21,7 +21,9 @@ end
 
 def literal_aoh
   
-hash = {DON_G.sort,JOELLE_VD.sort,PAT_M.sort,KATE_G.sort,BRUCE_G.sort}
+{:name=>"Don Gately", :occupation=>"Live-in Staff"}
+{:name=>"Joelle van Dyne", :occupation=>"Radio Personality"}
+{:name=>"Pat Monteseian", :occupation=>"Staff"}
 end
 
 def aoh_lookup(aoh, row, key)
